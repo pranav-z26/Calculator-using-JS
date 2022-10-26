@@ -17,6 +17,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     box-shadow: rgba(89, 31, 102, 0.707) 0px 8px 24px;
+    
 }
 
 .display input {
@@ -67,7 +68,51 @@ body {
     background-color: aquamarine;
 }
 
-.circles{
+@media all and (max-width: 1000px){
+    .outerdiv {
+        height: 75vh;
+        width: 65vw;
+        margin: 15vh auto;
+        padding: 10px;
+    }
+
+    .display input {
+        height: 8vh;
+        width: 57vw;
+        margin: 15px 0;
+        font-size: large;
+        text-align: end;
+        padding-right: 8px;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+
+    .btnc {
+        margin-left: 56vw;
+    }
+    
+    #btnc {
+        height: 15vw;
+        margin-bottom: 6px;
+        margin-top: -4px;
+    }
+    
+    .btn {
+        height: 10vh;
+        width: 15vw;
+        margin-top: 10px;
+    }
+}
+@media all and (max-width: 400px){
+    .outerdiv {
+        height: 68vh;
+        width: 65vw;
+        margin: 15vh auto;
+        padding: 10px;
+    }
+}
+
+/* .circles{
     height: 55vh;
     width: 55vh;
     background: linear-gradient(to top right, white, lightblue);
@@ -96,4 +141,4 @@ body {
 .txt2{
     bottom: 10%;
     right: 2%;
-}
+} */
