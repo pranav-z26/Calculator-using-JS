@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: linear-gradient(to top left, purple, white);
+}
+
+.outerdiv {
+    background-color: aliceblue;
+    border: 2px solid blue;
+    height: 70vh;
+    width: 18vw;
+    margin: 15vh auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(89, 31, 102, 0.707) 0px 8px 24px;
+}
+
+.display input {
+    /* background-color: black; */
+    height: 8vh;
+    width: 17vw;
+    margin: 15px 0;
+    font-size: large;
+    text-align: end;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* color: white; */
+}
+
+.btnc {
+    margin-left: 12vw;
+    background-color:darksalmon;
+
+}
+
+#btnc {
+    height: 2vw;
+    margin-bottom: 6px;
+    margin-top: -4px;
+}
+
+.btn {
+    height: 10vh;
+    width: 5vw;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: antiquewhite;
+    font-size: larger;
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btne{
+    background-color: aquamarine;
+}
+
+.circles{
+    height: 55vh;
+    width: 55vh;
+    background: linear-gradient(to top right, white, lightblue);
+    border-radius: 27.5vh;
+    position: absolute;
+}
+
+.c1{
+    top: -10%;
+    left: -5%;
+}
+.c2{
+    bottom: -10%;
+    right: -5%;
+}
+.txt{
+    color: black;
+    position: absolute;
+    padding: 50px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.txt1{
+    top: 10%;
+}
+.txt2{
+    bottom: 10%;
+    right: 2%;
+}
